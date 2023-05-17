@@ -32,7 +32,7 @@ module.exports = {
     ALIVE_DATA : process.env.ALIVE_DATA || "$text>_iam alive now &sender_",
     BOT_INFO : process.env.BOT_INFO || "201158862316;SoFia-BOT-MD;INRL;https://telegra.ph/file/bf05de7dd345556d86853.jpg",
     WORKTYPE : process.env.WORKTYPE || "public",
-    PREFIX : process.env.PREFIX || ['.'],
+    PREFIX : process.env.PREFIX || false,
     WELCOME_MSG : process.env.WELCOME_MSG || "$text>_hey bro/sis_ *&user*\nthanks for join;$image>&pp;",
     EXIT_MSG : process.env.EXIT_MSG || "$text>_goodbye _ *&user*;$image>&pp;",
     LANG : process.env.LANG || "en",
